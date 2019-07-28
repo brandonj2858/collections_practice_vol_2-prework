@@ -14,7 +14,7 @@ end
 
 def first_wa(array)
   array.find do |element|
-    element[0, 2] == "wa"
+    element[0, 3] == "wac"
   end
 end
 
