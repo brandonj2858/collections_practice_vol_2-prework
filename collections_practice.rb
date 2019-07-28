@@ -33,7 +33,7 @@ def count_elements(array)
         element[:count] += 1
       end
     end
-  end
+  end.uniq
 end
 
 def merge_data(keys, values)
