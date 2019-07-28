@@ -29,11 +29,11 @@ def count_elements(array)
     element[:count] = 0
     name = element[:name]
     array.each do |value|
-      if value[:name] == name
+      if value[:name] = name
         element[:count] += 1
       end
     end
-  end.uniq
+  end
 end
 
 def merge_data(keys, values)
